@@ -1,8 +1,14 @@
+body {
+  background-color: #e6ccff;
+}
 .Header {
   font-size: 15px;
   text-align: center;
-   font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+  font-family: "Lucida Sans Typewriter";
+  border: 10px solid #ffffff;
+  border-color: #ffffff;
 }
-#weekday , #month , #month , #date, #weekday, #year{
+
+#weekday , #month , #month , #date, #weekday, #year {
 display:inline-block;
 }

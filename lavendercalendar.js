@@ -1,5 +1,3 @@
-
-
 var m = new Date();
 var d = new Date();
 var w = new Date();
