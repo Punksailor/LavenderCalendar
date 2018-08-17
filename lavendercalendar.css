@@ -14,3 +14,7 @@ body {
 #weekday , #month , #month , #date, #weekday, #year {
 display:inline-block;
 }
+
+a{
+    color: #000;
+}
