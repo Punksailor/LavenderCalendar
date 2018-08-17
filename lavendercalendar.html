@@ -5,9 +5,28 @@
   <title>Lavendar Calendar</title>
   <link rel="stylesheet" type="text/css" href="lavendercalendar.css">
   <script src="lavendercalendar.js"></script>
+  <link rel="stylesheet" type="text/css" href="sidebars.css">
+  <script type="text/javascript" src="sidebars.js"></script>
 </head>
 
 <body>
+  <div id="sideNavigation" class="sidenav">
+  <a class="linkcolor" href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a class="linkcolor" href="#">LINK 1</a>
+  <a class="linkcolor" href="#">LINK 2</a>
+  <a class="linkcolor" href="#">LINK 3</a>
+</div>
+
+<nav class="topnav">
+  <a href="#" onclick="openNav()">
+    <svg width="30" height="30" id="icoOpen">
+        <path d="M0,5 30,5" stroke="#000" stroke-width="5"/>
+        <path d="M0,14 30,14" stroke="#000" stroke-width="5"/>
+        <path d="M0,23 30,23" stroke="#000" stroke-width="5"/>
+    </svg>
+  </a>
+</nav>
+
   <div class="Header">
     <h1>Goodmorning Beautiful</h1>
   <a href="testcal.html"> <div class="time">
