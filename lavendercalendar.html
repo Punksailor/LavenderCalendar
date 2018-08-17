@@ -4,41 +4,22 @@
 <head>
   <title>Lavendar Calendar</title>
   <link rel="stylesheet" type="text/css" href="lavendercalendar.css">
-  <script type="text/javascript" src="lavendercalendar.js"></script>
+  <script src="lavendercalendar.js"></script>
 </head>
 
 <body>
   <div class="Header">
     <h1>Goodmorning Beautiful</h1>
-    <h1>Today is</h1>
-    <div class="time">
+  <a href="testcal.html"> <div class="time">
       <h1 id = "weekday" ></h1>
       <h1 id = "month" ></h1>
       <h1 id="date"></h1>
       <h1 id = "weekday" ></h1>
       <h1 id="year"></h1>
+    </a>
     </div>
+      <script src="lavendercalendar.js"></script>
   </div>
-  <script>
 
-    //var d = new Date();
-    //document.getElementById("demo").innerHTML = d;
-
-    var m = new Date();
-    var d = new Date();
-    var w = new Date();
-    var y = new Date();
-    var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
-    month = document.getElementById("month").innerHTML = months[m.getMonth()];
-
-    date = document.getElementById("date").innerHTML = d.getDate();
-
-    weekdays = ["Sunday,","Monday,","Tuesday,","Wednesday,","Thursday,","Friday,","Saturday,"];
-    weekday = document.getElementById("weekday").innerHTML = weekdays[w.getDay()];
-
-    year = document.getElementById("year").innerHTML = y.getFullYear();
-
-</script>
-  </div>
 </body>
 </html>
