@@ -15,9 +15,15 @@ body {
 display:inline-block;
 }
 
-a{
-    background-color: #000;
-}
-.Schedule {
+.Schedule{
+  font-size: 15px;
+  text-align: center;
+  font-family: "Lucida Sans Typewriter";
   background-color: #ffffff;
+}
+
+
+.a {
+    background-color: #000;
+
 }
