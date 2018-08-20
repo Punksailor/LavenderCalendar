@@ -3,6 +3,7 @@
 <html>
 <head>
   <title>Lavendar Calendar</title>
+  <link rel="icon" href="Lavender-icon.png">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="lavendercalendar.css">
   <script src="lavendercalendar.js"></script>
@@ -18,7 +19,7 @@
   <a class="linkcolor" href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <a class="linkcolor" href="#">Goals</a>
   <a class="linkcolor" href="#">Deadlines</a>
-  <a class="linkcolor" href="#">breath in</a>
+  <a class="linkcolor" href="#">add</a>
 </div>
 
 <nav class="topnav">
@@ -48,6 +49,14 @@
     <div class="content">
       <div class="square">
       <h1>Schedule <h1>
+        <nav class="add">
+          <a href="#" onclick="openpopup()">
+            <svg width="30" height="30">
+                <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+                <path d="M0,500 16,1" stroke="#fff" stroke-width="5"/>
+            </svg>
+          </a>
+        </nav>
       </div>
     </div>
 
