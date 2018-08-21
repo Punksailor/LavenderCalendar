@@ -3,6 +3,7 @@
 <html>
 <head>
   <title>Lavendar Calendar</title>
+  <link rel="icon" href="Lavender-icon.png">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="lavendercalendar.css">
   <script src="lavendercalendar.js"></script>
@@ -16,9 +17,9 @@
 
   <div id="sideNavigation" class="sidenav">
   <a class="linkcolor" href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a class="linkcolor" href="#">LINK 1</a>
-  <a class="linkcolor" href="#">LINK 2</a>
-  <a class="linkcolor" href="#">LINK 3</a>
+  <a class="linkcolor" href="#">Goals</a>
+  <a class="linkcolor" href="#">Deadlines</a>
+  <a class="linkcolor" href="#">add</a>
 </div>
 
 <nav class="topnav">
@@ -32,20 +33,33 @@
 </nav>
 
   <div class="Header">
-    <h1>Goodmorning Beautiful</h1>
+    <h1>Hey Beautiful</h1>
     <h1> Today Is... <h1>
-  <a href="testcal.html"> <div class="time">
-      <h1 id = "weekday" ></h1>
-      <h1 id = "month" ></h1>
-      <h1 id="date"></h1>
-      <h1 id = "weekday" ></h1>
-      <h1 id="year"></h1>
+  <div class="time"> <a href="testcal.html" id="link">
+      <div id = "weekday"></div>
+      <div id = "month" ></div>
+      <div id="date"></div>
+      <div id = "weekday" ></div>
+      <div id="year"></div>
     </a>
     </div>
       <script src="lavendercalendar.js"></script>
   </div>
   <div class="Schedule">
-    <h1>Schedule <h1>
+    <div class="content">
+      <div class="square">
+      <h1>Schedule <h1>
+        <nav class="add">
+          <a href="#" onclick="openpopup()">
+            <svg width="30" height="30">
+                <path d="M0,14 30,14" stroke="#000" stroke-width="5"/>
+                <path d="M0,500 16,1" stroke="#000" stroke-width="5"/>
+            </svg>
+          </a>
+        </nav>
+      </div>
+    </div>
+
 <!--
 - not variables but almost like that
 -json?
