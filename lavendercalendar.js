@@ -12,3 +12,13 @@
     weekday = document.getElementById("weekday").innerHTML = weekdays[w.getDay()];
 
     year = document.getElementById("year").innerHTML = y.getFullYear();
+
+    // Get the modal
+    var modal = document.getElementById('id01');
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
