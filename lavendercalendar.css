@@ -16,10 +16,21 @@ display:inline-block;
 }
 
 .Schedule{
-  font-size: 15px;
+  font-size: 25px;
   text-align: center;
   font-family: "Lucida Sans Typewriter";
   background-color: #ffffff;
+}
+h2 {
+font-size: 27px;
+font-family: "Lucida Sans Typewriter";
+ font-weight: bold;
+
+}
+p {
+    font-family: "Lucida Sans Typewriter";
+    font-size: 20px;
+     font-weight: normal;
 }
 
 .time{

@@ -5,11 +5,17 @@
 //}
 
 function myFunction() {
-    var x = document.getElementById("myform");
+document.getElementById("myform").innerHTML.value
+
+  //var x = document.getElementById("myform");
     //var text = "";
     //var templist = {};
-    var i;
-    for (i = 0; i < x.length; i++) {
-        var tempKey = keys[i];
-        var tempValue = x.elements[i].value;
+var i;
+for (i = 0; i < x.length; i++) {
+       document.getElementById("myform").innerHTML.value
+
+      //  var tempKey = keys[i];
+        //var tempValue = x.elements[i].value;
     }
+
+//
